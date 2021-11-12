@@ -1,8 +1,10 @@
 package com.testassignment.quotacounts
 
 import org.springframework.stereotype.Service
+import org.springframework.transaction.annotation.Transactional
 
 @Service
+@Transactional
 class QuotesService(
     private val quoteRepository: QuoteRepository,
     private val energyLevelRepository: EnergyLevelRepository
