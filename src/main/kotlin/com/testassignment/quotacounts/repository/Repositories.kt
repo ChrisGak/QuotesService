@@ -1,5 +1,7 @@
-package com.testassignment.quotacounts
+package com.testassignment.quotacounts.repository
 
+import com.testassignment.quotacounts.model.EnergyLevel
+import com.testassignment.quotacounts.model.Quote
 import org.springframework.data.repository.CrudRepository
 
 interface QuoteRepository : CrudRepository<Quote, Long> {

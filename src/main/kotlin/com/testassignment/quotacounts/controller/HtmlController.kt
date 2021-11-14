@@ -1,4 +1,4 @@
-package com.testassignment.quotacounts
+package com.testassignment.quotacounts.controller
 
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model

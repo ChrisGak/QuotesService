@@ -1,4 +1,4 @@
-package com.testassignment.quotacounts
+package com.testassignment.quotacounts.model
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue

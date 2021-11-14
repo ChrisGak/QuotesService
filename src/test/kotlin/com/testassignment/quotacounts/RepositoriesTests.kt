@@ -1,5 +1,9 @@
 package com.testassignment.quotacounts
 
+import com.testassignment.quotacounts.model.EnergyLevel
+import com.testassignment.quotacounts.model.Quote
+import com.testassignment.quotacounts.repository.EnergyLevelRepository
+import com.testassignment.quotacounts.repository.QuoteRepository
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
